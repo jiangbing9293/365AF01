@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="video_flip">
+	    <item>@string/video_flip_normal</item>
+	    <item>@string/video_flip_vertical</item>
+		<item>@string/video_flip_horizontal</item>
+		<item>@string/video_flip_vertical_horizontal</item>
+	</string-array>
+</resources>

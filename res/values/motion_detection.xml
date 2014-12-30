@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="motion_detection">
+		<item>@string/motion_detection_closed</item>
+		<item>@string/motion_detection_lower</item>
+		<item>@string/motion_detection_middle</item>
+		<item>@string/motion_detection_high</item>
+		<item>@string/motion_detection_highest</item>
+	</string-array>
+</resources>

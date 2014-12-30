@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/f2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+	<freelancer.worldvideo.view.TitleView 
+	    android:id="@+id/imageViewTitle"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+    <ImageSwitcher
+        android:id="@+id/imageview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+    </ImageSwitcher>
+</FrameLayout>

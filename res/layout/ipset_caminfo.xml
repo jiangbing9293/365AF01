@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"
+        android:text="@string/ipset_title"
+        android:textColor="#7d7d7d"
+        android:visibility="gone"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/cam_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/bg_disable"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:text="@string/ipset_camname"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_cam_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:inputType="text"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cam_ip"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/bg_disable"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:text="@string/ipset_camip"
+            android:textColor="#7d7d7d"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_cam_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:inputType="text"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cam_code"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/bg_disable"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:text="@string/ipset_camcode"
+            android:textColor="#7d7d7d"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/t_camgcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:inputType="text"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cam_gate"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/bg_disable"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:text="@string/ipset_camgate"
+            android:textColor="#7d7d7d"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/t_camgate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:inputType="text"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cam_dns1"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/bg_disable"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:text="@string/ipset_camdns1"
+            android:textColor="#7d7d7d"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/t_camgdns1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:inputType="text"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cam_dns2"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/bg_disable"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:text="@string/ipset_camdns2"
+            android:textColor="#7d7d7d"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/t_camgdns2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:inputType="text"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cam_httpport"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/bg_disable"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:text="@string/ipset_camport"
+            android:textColor="#7d7d7d"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_cam_port"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:inputType="text"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cam_rtspport"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/bg_disable"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:text="@string/ipset_camrtsp"
+            android:textColor="#7d7d7d"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/t_camrtsp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:inputType="text"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cam_mac"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/bg_disable"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:text="@string/ipset_cammac"
+            android:textColor="#7d7d7d"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_cam_mac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:inputType="text"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:singleLine="true"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

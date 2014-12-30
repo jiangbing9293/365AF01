@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/localpicture_img_splash"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_margin="5dip"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+             />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/localpicture_txt_name1"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:singleLine="true"
+                android:textColor="#638caa"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/localpicture_txt_name2"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:singleLine="true"
+                android:textColor="#7d7d7d"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/localpicture_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dip"
+                android:background="@drawable/icon_more" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="main_color">#00A4C5</color>
+	
+	<color name="alarmtask_color_one">#cccccc</color>
+	<color name="alarmtask_color_two">#CF1E25</color>
+</resources>

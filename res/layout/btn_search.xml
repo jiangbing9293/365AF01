@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+      <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_marginTop="50dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/btn_yellow_seletor"
+        android:drawableLeft="@drawable/icon_refresh"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:text="@string/searchlist_refresh"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</LinearLayout>

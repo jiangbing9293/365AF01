@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+		 
+        <freelancer.worldvideo.util.MyMonitor
+            android:id="@+id/monitor1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+		 <ImageView 
+                android:id="@+id/lvideo_live_img_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_rec"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                />
+        <LinearLayout
+            android:id="@+id/llayout_tool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/monitor1"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/menu_watch"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/videolive_lock"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:background="@drawable/btn_lock_seletor"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/videolive_spalsh1"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:background="@drawable/menu_photo"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/videolive_record1"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:background="@drawable/menu_videotape"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/videolive_speaking1"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:background="@drawable/menu_intercom"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/videolive_listening1"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:background="@drawable/menu_monitor"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/btn_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/btn_left_seletor" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/monitor1"
+            android:background="@drawable/btn_right_seletor"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

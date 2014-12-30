@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <freelancer.worldvideo.view.TitleView
+                android:id="@+id/video_palyback_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </freelancer.worldvideo.view.TitleView>
+
+            <freelancer.worldvideo.fragment.FragmentIndicatorVideoPalyback
+                android:id="@+id/indicator_palyback"
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                >
+            </freelancer.worldvideo.fragment.FragmentIndicatorVideoPalyback>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+        <fragment
+        android:id="@+id/fragment_playback_local"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="freelancer.worldvideo.fragment.PlaybackLocalFragment" />
+        <fragment
+        android:id="@+id/fragment_playback_cam"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="freelancer.worldvideo.fragment.PlaybackCamFragment" />
+        <!-- 
+        <fragment
+        android:id="@+id/fragment_playback_event"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="freelancer.worldvideo.fragment.PlaybackEventFragment" />
+         -->
+    </LinearLayout>
+
+</LinearLayout>

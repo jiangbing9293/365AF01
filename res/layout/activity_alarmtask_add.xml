@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <freelancer.worldvideo.view.TitleView
+        android:id="@+id/alarmtask_add_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="Start:"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/alarmtask_start_sub"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/icon_sub" />
+
+            <EditText
+                android:id="@+id/alarmtask_start_value"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/icon_sub_bg_add"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="1"
+                android:maxLength="2"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/alarmtask_start_add"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/icon_add" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="End:"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/alarmtask_end_sub"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/icon_sub" />
+
+            <EditText
+                android:id="@+id/alarmtask_end_value"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/icon_sub_bg_add"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="23"
+                android:maxLength="2"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/alarmtask_end_add"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/icon_add" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="Repeat:"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_mon"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/icon_unselected"
+                android:text="Mon."
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btn_tues"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/icon_unselected"
+                android:text="Tues."
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btn_wed"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/icon_unselected"
+                android:text="Wed."
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btn_thur"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/icon_unselected"
+                android:text="Thur."
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btn_fri"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/icon_unselected"
+                android:text="Fri."
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btn_sat"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/icon_selected"
+                android:text="Sat."
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btn_sun"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/icon_selected"
+                android:text="Sun."
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/line" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="recording_mode">
+	    <item>@string/record_mode_closed</item>
+		<item>@string/record_mode_full</item>
+		<item>@string/record_mode_alarm</item>
+	</string-array>
+</resources>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f5f0ed"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <freelancer.worldvideo.view.TitleView
+        android:id="@+id/alarm_email_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_2"
+        android:gravity="left|center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="@string/alertset_email_server"
+            android:textColor="@color/main_color"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_server_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:background="#00000000"
+            android:inputType="text"
+            android:hint="@string/alertset_email_server_address"
+            android:textColor="#638CAA"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_2"
+        android:gravity="left|center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="@string/alertset_email_receiver"
+            android:textColor="@color/main_color"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_receiver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:background="#00000000"
+            android:inputType="textEmailAddress"
+            android:textColor="#638CAA"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_2"
+        android:gravity="left|center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="@string/alertset_email_sender"
+            android:textColor="@color/main_color"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_sender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:background="#00000000"
+            android:inputType="textEmailAddress"
+            android:textColor="#638CAA"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_2"
+        android:gravity="left|center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="@string/alertset_email_username"
+            android:textColor="@color/main_color"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:background="#00000000"
+            android:inputType="text"
+            android:textColor="#638CAA"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_2"
+        android:gravity="left|center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="@string/alertset_email_password"
+            android:textColor="@color/main_color"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:background="#00000000"
+            android:inputType="textPassword"
+            android:textColor="#638CAA"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/alertset_email_check_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="@string/alertset_email_check"
+            android:textColor="@color/main_color"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/alertset_email_check"
+            android:layout_width="50dip"
+            android:layout_height="30dip"
+            android:layout_marginLeft="10dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/switch_yes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/alertset_email_ssladd_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="@string/alertset_email_ssladd"
+            android:textColor="@color/main_color"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/alertset_email_ssladd"
+            android:layout_width="50dip"
+            android:layout_height="30dip"
+            android:layout_marginLeft="10dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/switch_off" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f5f0ed"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <freelancer.worldvideo.view.TitleView
+        android:id="@+id/paramter_set_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip" >
+
+                <Button
+                    android:id="@+id/parameterset_wifi"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:background="@drawable/bg_list_white"
+                    android:drawableLeft="@drawable/icon_wifi_white"
+                    android:drawablePadding="40dip"
+                    android:drawableRight="@drawable/icon_more"
+                    android:gravity="left|fill_vertical"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/parameterset_wifi"
+                    android:textColor="#7d7d7d"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txt_parameterset_wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dip"
+                    android:textColor="@color/main_color"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/parameterset_ipset"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/bg_list_white"
+                android:drawableLeft="@drawable/icon_network"
+                android:drawablePadding="40dip"
+                android:drawableRight="@drawable/icon_more"
+                android:gravity="left|fill_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="5dip"
+                android:text="@string/parameterset_ipset"
+                android:textColor="#7d7d7d"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/parameterset_passsword"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/bg_list_white"
+                android:drawableLeft="@drawable/icon_pw_equipment"
+                android:drawablePadding="40dip"
+                android:drawableRight="@drawable/icon_more"
+                android:gravity="left|fill_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="5dip"
+                android:text="@string/parameterset_passsword"
+                android:textColor="#7d7d7d"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/panelVideoQuality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/parameterset_videolevel"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dip"
+                        android:background="@drawable/bg_list_white"
+                        android:drawableLeft="@drawable/icon_video"
+                        android:drawablePadding="40dip"
+                        android:drawableRight="@drawable/icon_more"
+                        android:gravity="left|fill_vertical"
+                        android:paddingLeft="20dip"
+                        android:paddingRight="5dip"
+                        android:text="@string/parameterset_videolevel"
+                        android:textColor="#7d7d7d"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_parameterset_videolevel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="30dip"
+                        android:textColor="@color/main_color"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip" >
+
+                    <Button
+                        android:id="@+id/parameterset_scree"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dip"
+                        android:background="@drawable/bg_list_white"
+                        android:drawableLeft="@drawable/icon_flip"
+                        android:drawablePadding="40dip"
+                        android:drawableRight="@drawable/icon_more"
+                        android:gravity="left|fill_vertical"
+                        android:paddingLeft="20dip"
+                        android:paddingRight="5dip"
+                        android:text="@string/parameterset_scree"
+                        android:textColor="#7d7d7d"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_parameterset_scree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="30dip"
+                        android:textColor="@color/main_color"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip" >
+
+                    <Button
+                        android:id="@+id/parameterset_environment"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dip"
+                        android:background="@drawable/bg_list_white"
+                        android:drawableLeft="@drawable/icon_environment"
+                        android:drawablePadding="40dip"
+                        android:drawableRight="@drawable/icon_more"
+                        android:gravity="left|fill_vertical"
+                        android:paddingLeft="20dip"
+                        android:paddingRight="5dip"
+                        android:text="@string/parameterset_environment"
+                        android:textColor="#7d7d7d"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_parameterset_environment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="30dip"
+                        android:textColor="@color/main_color"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/record_relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip" >
+
+                <Button
+                    android:id="@+id/parameterset_record"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:background="@drawable/bg_list_white"
+                    android:drawableLeft="@drawable/icon_record"
+                    android:drawablePadding="40dip"
+                    android:drawableRight="@drawable/icon_more"
+                    android:gravity="left|fill_vertical"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/parameterset_record"
+                    android:textColor="#7d7d7d"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txt_parameterset_record"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dip"
+                    android:textColor="@color/main_color"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/parameterset_info"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/bg_list_white"
+                android:drawableLeft="@drawable/icon_cam_name"
+                android:drawablePadding="40dip"
+                android:drawableRight="@drawable/icon_more"
+                android:gravity="left|fill_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="5dip"
+                android:text="@string/parameterset_info"
+                android:textColor="#7d7d7d"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/parameterset_ring"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/bg_list_white"
+                android:drawableLeft="@drawable/icon_ring_tone"
+                android:drawablePadding="40dip"
+                android:drawableRight="@drawable/icon_more"
+                android:gravity="left|fill_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="5dip"
+                android:text="@string/parameterset_ring"
+                android:textColor="#7d7d7d"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/parameterset_alarm_ring"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/bg_list_white"
+                android:drawableLeft="@drawable/notification_icon_alert"
+                android:drawablePadding="40dip"
+                android:drawableRight="@drawable/icon_more"
+                android:gravity="left|fill_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="5dip"
+                android:text="@string/parameterset_alarm_ring"
+                android:textColor="#7d7d7d"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip" >
+
+                <Button
+                    android:id="@+id/parameterset_voice_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:background="@drawable/bg_list_white"
+                    android:drawableLeft="@drawable/icon_environment"
+                    android:drawablePadding="40dip"
+                    android:drawableRight="@drawable/icon_more"
+                    android:gravity="left|fill_vertical"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/parameterset_voice_language"
+                    android:textColor="#7d7d7d"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txt_parameterset_voice_language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dip"
+                    android:textColor="@color/main_color"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="2dip" >
+
+                <Button
+                    android:id="@+id/parameterset_apmode"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:background="@drawable/bg_list_white"
+                    android:drawableLeft="@drawable/icon_network"
+                    android:drawablePadding="40dip"
+                    android:drawableRight="@drawable/icon_more"
+                    android:gravity="left|fill_vertical"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/parameterset_apmode"
+                    android:textColor="#7d7d7d"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txt_parameterset_apmode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dip"
+                    android:textColor="@color/main_color"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

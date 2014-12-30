@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="video_quality">
+	    <item>@string/video_quakity_highest</item>
+		<item>@string/video_quakity_high</item>
+		<item>@string/video_quakity_middle</item> 
+		<item>@string/video_quakity_lower</item>
+		<item>@string/video_quakity_lowest</item>
+	</string-array>
+</resources>

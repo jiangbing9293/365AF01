@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="event_notification">
+	    <item>@string/event_notification_quiet</item>
+		<item>@string/event_notification_ring</item>
+		<item>@string/event_notification_shock</item>
+		<item>@string/event_notification_ring_shock</item>
+	</string-array>
+</resources>

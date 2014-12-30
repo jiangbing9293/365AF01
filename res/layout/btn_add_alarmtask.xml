@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_add_alarmtask"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:layout_marginTop="50dip"
+        android:background="@drawable/bg_menu"
+        android:gravity="center"
+        android:text="Add Schedules"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btn_alarmtask_cancel"
+            android:layout_width="100dip"
+            android:layout_height="50dip"
+            android:background="@color/alarmtask_color_one"
+            android:text="All" />
+
+        <Button
+            android:id="@+id/btn_alarmtask_delete"
+            android:layout_width="100dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="100dip"
+            android:background="@color/alarmtask_color_two"
+            android:text="Delete" />
+    </LinearLayout>
+
+</LinearLayout>

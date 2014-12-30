@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="environment_mode">
+	    <item>@string/environment_mode_indoor50</item>
+	    <item>@string/environment_mode_indoor</item>
+		<item>@string/environment_mode_outdoor_mode</item>
+		<item>@string/environment_mode_night</item>
+	</string-array>
+</resources>

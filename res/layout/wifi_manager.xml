@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+   <freelancer.worldvideo.view.TitleView
+        android:id="@+id/wifi_manager_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+   
+     <TextView
+        android:id="@+id/lable_wifi_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="20dip"
+        android:textColor="@color/main_color"
+        android:textSize="16sp"
+        android:text="@string/wifi_manager_lable_search" />
+   
+   
+    <ListView
+        android:id="@+id/wifi_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+  
+</LinearLayout>

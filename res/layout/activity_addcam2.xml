@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f5f0ed"
+    android:orientation="vertical" >
+
+    <freelancer.worldvideo.view.TitleView
+        android:id="@+id/addcam2_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/list_2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/icon_addcam"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dip"
+                android:text="@string/addcam_activty_input_dev_name"
+                android:textColor="#9D9D9D"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/addcam_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:paddingLeft="5dip"
+                android:paddingRight="0dip"
+                android:hint="@string/addcam_activty_input_dev_name_hint"
+                android:textColor="#ABABAB"
+                android:textColorHint="#CCCCCC"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/list_2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:background="#00000000"
+                android:src="@drawable/icon_num" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dip"
+                android:text="@string/addcam_activty_input_dev_uid"
+                android:textColor="#9D9D9D"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/addcam_uid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:paddingLeft="5dip"
+                android:hint="@string/addcam_activty_input_dev_uid_hint"
+                android:paddingRight="10dip"
+                android:singleLine="true"
+                android:textColor="#ABABAB"
+                android:textColorHint="#CCCCCC"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_qr"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/icon_qr" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/list_2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/icon_pw_equipment" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dip"
+                android:text="@string/addcam_activty_input_dev_password"
+                android:textColor="#9D9D9D"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/addcam_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:background="#00000000"
+                android:hint="@string/addcam_activty_input_dev_password_hint"
+                android:inputType="textPassword"
+                android:paddingLeft="5dip"
+                android:paddingRight="0dip"
+                android:textColor="#ABABAB"
+                android:textColorHint="#CCCCCC"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_margin="10dip"
+        android:background="@drawable/btn_login_l"
+        android:drawableLeft="@drawable/baocun"
+        android:drawablePadding="-50dip"
+        android:gravity="center"
+        android:text="@string/addcam_btn_save"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btn_check_local_device"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_margin="10dip"
+        android:background="@drawable/btn_login_l"
+        android:gravity="center"
+        android:text="检测设备中..."
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</LinearLayout>
